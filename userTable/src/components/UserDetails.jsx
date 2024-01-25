@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { addUser } from "../store/slices/userSlice";
 import { fakeUserData } from "../api";
+import DisplayUsers from "./DisplayUsers";
 
 const UserDetails = () => {
   const dispatch = useDispatch();
@@ -25,8 +26,7 @@ const UserDetails = () => {
 
       {/* List of users */}
       <ul>
-        <li>HI</li>
-        <li>HI</li>
+        <DisplayUsers />
       </ul>
     </div>
   );
