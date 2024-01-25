@@ -6,7 +6,6 @@ import "./index.css";
 const App = () => {
   return (
     <>
-      <h1 className="text-green-500">hello</h1>
       <NavBar />
       <UserDetails />
     </>
